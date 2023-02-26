@@ -39,9 +39,13 @@ public class Animal {
                 "Type='" + Type + '\'' +
                 ", Size='" + Size + '\'' +
                 ", weight=" + weight +
-                '}';
+                '}' + super.toString();
     }
 
     private String Size;
     private int weight;
+
+    public void move(){
+        System.out.println("moving");
+    }
 }

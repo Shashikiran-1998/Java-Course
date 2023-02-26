@@ -7,7 +7,7 @@ public class main {
 
        Dog dog=new Dog("Huskey","mid",50);
        doSomething(dog,"ok");
-       dog.getSize();// you can get all methods from super class + new methods/attributes
+       System.out.println(dog.getSize());// you can get all methods from super class + new methods/attributes
     }
 
     public static void doSomething(Animal animal,String speed){
