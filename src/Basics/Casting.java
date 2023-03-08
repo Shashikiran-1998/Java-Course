@@ -2,6 +2,11 @@ package Basics;
 
 public class Casting {
 
+    @Override
+    public String toString() {
+        return "Casting{}";
+    }
+
     public static void main(String[] args) {
         byte b=Byte.MAX_VALUE;
 //        b=b/2;

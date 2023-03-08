@@ -9,6 +9,10 @@ public class Animal {
         this.weight = weight;
     }
 
+    public Animal() {
+
+    }
+
     public String getType() {
         return Type;
     }
@@ -48,4 +52,6 @@ public class Animal {
     public void move(){
         System.out.println("moving");
     }
+
+
 }
